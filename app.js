@@ -11,5 +11,5 @@ app.get('/', (req, res) => {
 })
 
 app.listen(port = 2000, () => {
-console.log("running the server!!!")
+console.log(`Server Running on port ${2000}`)
 })
